@@ -4,7 +4,7 @@
 }
 
 :root{
-    --background-main:#fbbdf1;
+    --background-main:#FCBCF1;
     --main-text:#ddd;
 }
 
@@ -22,7 +22,7 @@ nav{
     position: sticky;
 }
 
-.img-container{
+.header-img-container{
     margin: 5px 5px;
 }
 
@@ -47,7 +47,8 @@ nav{
 }
 
 
-.options li::before, .options li::after {
+.options li::before, 
+.options li::after {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -76,7 +77,48 @@ nav{
 
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
 
+.img-container img{
+    display: flex;
+    height: 100vh;
+}
 
+.buy-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.buy-container img{
+    display: flex;
+    text-align: center;
+}
+
+.buy-container a{
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border-radius:25px;
+    background-color: #fbbdf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buy-container a:hover{
+    transition: all 1.5s;
+    box-shadow: none;
+}
 
 
