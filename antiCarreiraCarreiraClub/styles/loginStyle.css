@@ -85,6 +85,12 @@ nav{
 
 }
 
+.options a{
+    text-decoration: none;
+    color: var(--border-white);
+}
+
+
 /* Containers */
 
 #main-container{
