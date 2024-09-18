@@ -298,3 +298,44 @@ footer #footer-links{
 #registered{
     margin-top: 10px;
 }
+
+@media (max-width: 450px ) {
+
+    nav{
+        display: none;
+    }
+
+    body{ 
+        background-color: #000000;
+    }
+
+    #banner-container{
+        display: none;
+
+    }
+
+    #main-container,
+    #form-box{
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box, 
+    #register-container{
+        width: 100%;
+        border: none;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    #footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    
+
+}
