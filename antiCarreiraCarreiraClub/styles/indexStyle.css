@@ -91,13 +91,13 @@ nav{
 .img-container{
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 50px 0 20px 0;
     
 }
 
 .img-container img{
     display: flex;
-    height: 85vh;
+    height: 75vh;
     border: 1px solid var(--border-white);
     margin: 10px 10px;
 }
@@ -109,6 +109,7 @@ nav{
     justify-content: space-evenly;
     text-align: center;
     padding-bottom: 20px;
+    margin-top: 75px;
     
 }
 
@@ -125,7 +126,7 @@ nav{
     text-decoration: none;
     color: #000000;
     border-radius:25px;
-    background-color: var(--soft-pink);
+    /* background-color: var(--soft-pink); */
     box-shadow: none;
 }
 
