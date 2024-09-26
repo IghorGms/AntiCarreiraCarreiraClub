@@ -120,14 +120,14 @@ nav{
 
 .buy-container a{
     font-size: 25px;
-    border: 2px solid var(--black-total);
+    /* border: 2px solid var(--black-total); */
     padding: 0 10px;
     text-align: center;
     text-decoration: none;
     color: #000000;
     border-radius:25px;
     /* background-color: var(--soft-pink); */
-    box-shadow: none;
+    box-shadow: none;padding-bottom: 15px;
 }
 
 .buy-container a:hover{
