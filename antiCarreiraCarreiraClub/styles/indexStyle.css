@@ -97,9 +97,9 @@ nav{
 
 .img-container img{
     display: flex;
-    height: 75vh;
+    height: 70vh;
     border: 1px solid var(--border-white);
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
 .buy-container{
